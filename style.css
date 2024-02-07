@@ -5,7 +5,18 @@
 }
 body{
     background-color: #000000;
+    color: #fff;
 }
+
+.container {
+    max-width: 1850px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
 header{
     display: flex;
     justify-content: flex-end;
@@ -19,4 +30,19 @@ header button{
     background-color: #4A4A4A;
     padding: 4px ;
     border: none;
+}
+main{
+    margin-top: 50px ;
+    height: calc(100vh- 125px);     /* footer 85px */
+}
+.user{
+    position: relative;
+    margin-right: 6px;
+}
+.user-name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.6);
+    padding: 6px;
 }
