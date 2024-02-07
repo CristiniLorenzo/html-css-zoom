@@ -6,6 +6,7 @@
 body{
     background-color: #000000;
     color: #fff;
+    height: 100vh;
 }
 
 .container {
@@ -33,7 +34,8 @@ header button{
 }
 main{
     margin-top: 50px ;
-    height: calc(100vh- 125px);     /* footer 85px */
+    height: calc(100vh - 100px);
+    overflow: auto;     
 }
 .user{
     position: relative;
@@ -45,4 +47,12 @@ main{
     left: 0;
     background: rgba(0,0,0, 0.6);
     padding: 6px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    height: 60px;
 }
